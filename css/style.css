@@ -77,15 +77,17 @@ img:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .headline-card {
   background: #FFFFFF;
+  background: pink;
   border-radius: 8px;
-  margin: 30px;
-  margin-bottom: 50px;
+  border: 1px solid #333;
+  margin: 25px;
+  margin-bottom: 25px;
   max-width: 364px;
-  margin-left: 10px;
   background-color: #FFFFFF;
 }
 
@@ -97,14 +99,20 @@ img:hover {
   padding: 20px 20px 24px 20px;
 }
 
+.headline-card-content p {
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
 /*フッターセクション*/
 footer {
-  margin-top: 160px;
   background-color: #B3B3B3;
   text-align: center;
   margin: 0px;
   padding: 0px;
   vertical-align: bottom;
+  margin-top: 145px;
 }
 
 footer p {
